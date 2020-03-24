@@ -11,5 +11,13 @@
 </ion-header>
 
 <ion-content padding>
-
+  <ion-list>
+    <ion-item *ngFor="let f of Emergency" (click)="goToEmgc(f.id)">
+      <strong>{{f.name}}</strong>
+      <p>{{f.email}}</p>
+      <a href="tel:{{f.tel}}" item-right>
+        <ion-icon name="call"></ion-icon>
+      </a>
+    </ion-item>
+  </ion-list>
 </ion-content>

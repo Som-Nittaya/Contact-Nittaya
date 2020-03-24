@@ -19,26 +19,49 @@ export class FlPage {
       id:1,
       name:"Nittaya Pukyim",
       tel:"0838041636",
+      image:"logo.png",
     },
     {
       id:2,
       name:"Treeruk kulrat",
       tel:"0838777788",
+      image:"logo.png",
     },
     {
       id:3,
       name:"patcharee munmungyon",
       tel:"0838041636",
+      image:"src/assets/imgs/01.jpg",
     },
     {
       id:4,
-      name:"patcharee munmungyon",
+      name:"putida chomdee",
       tel:"0838041636",
+      image:"02.jpg",
     },
     {
       id:5,
       name:"kitti chaipoom",
       tel:"0838041636",
+      image:"03.jpg",
+    },
+    {
+      id:6,
+      name:"siriluk chanontree",
+      tel:"0838990909",
+      image:"03.jpg",
+    },
+    {
+      id:7,
+      name:"somchok mungmee",
+      tel:"0838041636",
+      image:"03.jpg",
+    },
+    {
+      id:8,
+      name:"saifon srisuy",
+      tel:"0838041636",
+      image:"03.jpg",
     }
   ];
 

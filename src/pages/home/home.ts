@@ -13,13 +13,10 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
-  goToFl(friend_id:any){
-    let friend = this.allFriends.find(({id})=> id===friend_id);
-    this.navCtrl.push(FlPage,{});
+  goToFl(){
+    this.navCtrl.push(FlPage);
   }
-  goToEmgc(friend_id:any){
-    let friend = this.allFriends.find(({id})=> id===friend_id);
-    this.navCtrl.push(FlPage,{});
+  goToEmgc(){
+    this.navCtrl.push(EmgcPage);
   }
-
 }

@@ -13,6 +13,10 @@
 <ion-content padding>
   <ion-list>
     <ion-item *ngFor="let f of allFriends" (click)="goToFl(f.id)">
+      <ion-avatar item-start>
+        <img [src]="item-image">
+      </ion-avatar>
+      
       <strong>{{f.name}}</strong>
       <p>{{f.email}}</p>
       <a href="tel:{{f.tel}}" item-right>
